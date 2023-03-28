@@ -1,0 +1,397 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "biolink": "https://w3id.org/biolink/vocab/",
+        "infores": "https://w3id.org/biolink/infores/",
+        "dct": "http://purl.org/dc/terms/"
+    },
+    "@graph": [
+        {
+            "@id": "https://w3id.org/biolink/infores/knowledge-collaboratory",
+            "@type": "biolink:InformationResource",
+            "biolink:category": "biolink:InformationResource",
+            "biolink:id": "infores:knowledge-collaboratory"
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://id.nlm.nih.gov/mesh/D009696"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/contains"
+            },
+            "rdf:object": {
+                "@id": "http://purl.obolibrary.org/obo/UBERON_0001555"
+            },
+            "biolink:id": "collaboratory:MESH:D009696-biolink:contains-UBERON:0001555",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://purl.obolibrary.org/obo/UBERON_0001555"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/form"
+            },
+            "rdf:object": {
+                "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+            },
+            "biolink:id": "collaboratory:UBERON:0001555-biolink:form-NCIT:C13725",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/based_on"
+            },
+            "rdf:object": {
+                "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+            },
+            "biolink:id": "collaboratory:NCIT:C13725-biolink:based_on-NCIT:C13725",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/contains"
+            },
+            "rdf:object": {
+                "@id": "http://identifiers.org/pubchem.compound/51346143"
+            },
+            "biolink:id": "collaboratory:NCIT:C13725-biolink:contains-PUBCHEM.COMPOUND:51346143",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C13725",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "NCIT:C13725",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "G-quadruplex"
+        },
+        {
+            "@id": "http://id.nlm.nih.gov/mesh/D009696",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "MESH:D009696",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "nucleic acid"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/44135672",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:44135672",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "DNA"
+        },
+        {
+            "@id": "http://identifiers.org/uniprot/P21338",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "UniProtKB:P21338",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "RNA"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/UBERON_0001555",
+            "@type": "biolink:Gene",
+            "biolink:id": "UBERON:0001555",
+            "biolink:category": "biolink:Gene",
+            "rdfs:label": "G-tracts"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/51346143",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:51346143",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "guanines"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C13725",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "NCIT:C13725",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "G-tetrads"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C1184482",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "UMLS:C1184482",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "grooves"
+        },
+        {
+            "@id": "http://identifiers.org/hmdb/HMDB0255955",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "HMDB:HMDB0255955",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "oligonucleotide"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C3549000",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "UMLS:C3549000",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "linkers"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/5161",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:5161",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "bimolecular"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/162300735",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:162300735",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "tetra-molecular"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0600383",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "UMLS:C0600383",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "strands"
+        }
+    ],
+    "@annotations": {
+        "@context": {
+            "tao": "http://pubannotation.org/ontology/tao.owl#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@graph": [
+            {
+                "@id": "http://purl.org/nanopub/temp/np#document",
+                "@type": "tao:document_text",
+                "tao:has_value": "A G-quadruplex or G4 is formed by nucleic acid sequences of DNA or RNA  containing G-tracts \nG-tracts are also called G-blocks.\nG-tracts are adjacent runs of guanines with various numbers of guanines.\n\nG4 is based on stacking between two or more G-tetrads\nIn a G-tetrad, guanines can be a syn or an anti-glycosidic bond angle conformation. \n\nEach of the four G-tracts that form the core of the structure  have parallel, anti-parallel or hybrid core conformations. \nG-blocks delimit four negatively charged grooves of different sizes: narrow, medium or wide. \nEach of the four G-tracts that belong to the same oligonucleotide are attached by linkers with variable nucleotide sequences and lengths. \nThese loops can adopt three different conformations: lateral, diagonal or propeller. \nThe bimolecular or tetra-molecular G4 structures are assembled from G-tracts belonging to two or four different strands. ",
+                "rdfs:seeAlso": {
+                    "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-2:14",
+                "tao:begins_at": 2,
+                "tao:ends_at": 14,
+                "tao:has_value": "G-quadruplex",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-34:46",
+                "tao:begins_at": 34,
+                "tao:ends_at": 46,
+                "tao:has_value": "nucleic acid",
+                "tao:denotes": {
+                    "@id": "http://id.nlm.nih.gov/mesh/D009696"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-60:63",
+                "tao:begins_at": 60,
+                "tao:ends_at": 63,
+                "tao:has_value": "DNA",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/44135672"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-67:70",
+                "tao:begins_at": 67,
+                "tao:ends_at": 70,
+                "tao:has_value": "RNA",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/uniprot/P21338"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-83:91",
+                "tao:begins_at": 83,
+                "tao:ends_at": 91,
+                "tao:has_value": "G-tracts",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/UBERON_0001555"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-158:166",
+                "tao:begins_at": 158,
+                "tao:ends_at": 166,
+                "tao:has_value": "guanines",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/51346143"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-246:255",
+                "tao:begins_at": 246,
+                "tao:ends_at": 255,
+                "tao:has_value": "G-tetrads",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-506:513",
+                "tao:begins_at": 506,
+                "tao:ends_at": 513,
+                "tao:has_value": "grooves",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C1184482"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-609:624",
+                "tao:begins_at": 609,
+                "tao:ends_at": 624,
+                "tao:has_value": "oligonucleotide",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/hmdb/HMDB0255955"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-641:648",
+                "tao:begins_at": 641,
+                "tao:ends_at": 648,
+                "tao:has_value": "linkers",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C3549000"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-788:799",
+                "tao:begins_at": 788,
+                "tao:ends_at": 799,
+                "tao:has_value": "bimolecular",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/5161"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-803:818",
+                "tao:begins_at": 803,
+                "tao:ends_at": 818,
+                "tao:has_value": "tetra-molecular",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/162300735"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-896:903",
+                "tao:begins_at": 896,
+                "tao:ends_at": 903,
+                "tao:has_value": "strands",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0600383"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            }
+        ]
+    }
+}

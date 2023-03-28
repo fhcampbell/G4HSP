@@ -1,0 +1,305 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "biolink": "https://w3id.org/biolink/vocab/",
+        "infores": "https://w3id.org/biolink/infores/",
+        "dct": "http://purl.org/dc/terms/"
+    },
+    "@graph": [
+        {
+            "@id": "https://w3id.org/biolink/infores/knowledge-collaboratory",
+            "@type": "biolink:InformationResource",
+            "biolink:category": "biolink:InformationResource",
+            "biolink:id": "infores:knowledge-collaboratory"
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://identifiers.org/pubchem.compound/135398635"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/forms"
+            },
+            "rdf:object": {
+                "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+            },
+            "biolink:id": "collaboratory:PUBCHEM.COMPOUND:135398635-biolink:forms-NCIT:C13725",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://identifiers.org/pubchem.compound/135398635"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/is_linked_by"
+            },
+            "rdf:object": {
+                "@id": "http://identifiers.org/chembl.compound/CHEMBL4297766"
+            },
+            "biolink:id": "collaboratory:PUBCHEM.COMPOUND:135398635-biolink:is_linked_by-CHEMBL.COMPOUND:CHEMBL4297766",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/135398635",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:135398635",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "guanosine"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/135398634",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:135398634",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "guanine"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/135398634",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:135398634",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "guanine"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/135398634",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:135398634",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "guanine "
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C13725",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "NCIT:C13725",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "G-tetrad"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C13725",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "NCIT:C13725",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "G-quartet"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/51346143",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:51346143",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "guanines"
+        },
+        {
+            "@id": "http://identifiers.org/chembl.compound/CHEMBL4297766",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "CHEMBL.COMPOUND:CHEMBL4297766",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "hydrogen "
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C53781",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "NCIT:C53781",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "Na+"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/5462222",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:5462222",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "K+"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C13725",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "NCIT:C13725",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "G-quartets."
+        }
+    ],
+    "@annotations": {
+        "@context": {
+            "tao": "http://pubannotation.org/ontology/tao.owl#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@graph": [
+            {
+                "@id": "http://purl.org/nanopub/temp/np#document",
+                "@type": "tao:document_text",
+                "tao:has_value": "Almost a century ago, the ability of guanosine, but not guanine, to form viscous gels was described. Fifty years later, X-ray diffraction data clearly showed that the guanosine moieties in these gels were arranged in a tetrameric organization linked by eight Hoogsteen hydrogen bonds. These hydrogen bonds differ from the bonds observed in canonical Watson–Crick pairing and involve the interaction of the N7 group from one guanine with the exocyclic amino group from a neighboring base . Therefore, a G-tetrad or a G-quartet results from planar association between four guanines that are held together by eight hydrogen bonds and coordinated with a central Na+ or K+ cation. In addition, nucleoside derivatives were also used to confirm the structural properties of G-quartets. ",
+                "rdfs:seeAlso": {
+                    "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-37:46",
+                "tao:begins_at": 37,
+                "tao:ends_at": 46,
+                "tao:has_value": "guanosine",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/135398635"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-56:63",
+                "tao:begins_at": 56,
+                "tao:ends_at": 63,
+                "tao:has_value": "guanine",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/135398634"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-56:63",
+                "tao:begins_at": 56,
+                "tao:ends_at": 63,
+                "tao:has_value": "guanine",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/135398634"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-424:432",
+                "tao:begins_at": 424,
+                "tao:ends_at": 432,
+                "tao:has_value": "guanine ",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/135398634"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-502:510",
+                "tao:begins_at": 502,
+                "tao:ends_at": 510,
+                "tao:has_value": "G-tetrad",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-516:525",
+                "tao:begins_at": 516,
+                "tao:ends_at": 525,
+                "tao:has_value": "G-quartet",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-571:579",
+                "tao:begins_at": 571,
+                "tao:ends_at": 579,
+                "tao:has_value": "guanines",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/51346143"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-612:621",
+                "tao:begins_at": 612,
+                "tao:ends_at": 621,
+                "tao:has_value": "hydrogen ",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/chembl.compound/CHEMBL4297766"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-658:661",
+                "tao:begins_at": 658,
+                "tao:ends_at": 661,
+                "tao:has_value": "Na+",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCIT_C53781"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-665:667",
+                "tao:begins_at": 665,
+                "tao:ends_at": 667,
+                "tao:has_value": "K+",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/5462222"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-767:778",
+                "tao:begins_at": 767,
+                "tao:ends_at": 778,
+                "tao:has_value": "G-quartets.",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCIT_C13725"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            }
+        ]
+    }
+}

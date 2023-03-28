@@ -1,0 +1,305 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "biolink": "https://w3id.org/biolink/vocab/",
+        "infores": "https://w3id.org/biolink/infores/",
+        "dct": "http://purl.org/dc/terms/"
+    },
+    "@graph": [
+        {
+            "@id": "https://w3id.org/biolink/infores/knowledge-collaboratory",
+            "@type": "biolink:InformationResource",
+            "biolink:category": "biolink:InformationResource",
+            "biolink:id": "infores:knowledge-collaboratory"
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191025/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191025/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://identifiers.org/umls/C0017346"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/stalled_by"
+            },
+            "rdf:object": {
+                "@id": "http://id.nlm.nih.gov/mesh/D012194"
+            },
+            "biolink:id": "collaboratory:UMLS:C0017346-biolink:stalled_by-MESH:D012194",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191025/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191025/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191025/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://identifiers.org/umls/C0017346"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/contains"
+            },
+            "rdf:object": {
+                "@id": "http://identifiers.org/umls/C0121922"
+            },
+            "biolink:id": "collaboratory:UMLS:C0017346-biolink:contains-UMLS:C0121922",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191025/"
+            }
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCBITaxon_11676",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "NCBITaxon:11676",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "HIV-1"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0017346",
+            "@type": "biolink:Gene",
+            "biolink:id": "UMLS:C0017346",
+            "biolink:category": "biolink:Gene",
+            "rdfs:label": "gag gene"
+        },
+        {
+            "@id": "http://id.nlm.nih.gov/mesh/D012194",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "MESH:D012194",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "reverse transcriptase"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/102407504",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:102407504",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "dimer"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/139048787",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:139048787",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "tetramer"
+        },
+        {
+            "@id": "http://id.nlm.nih.gov/mesh/D002412",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "MESH:D002412",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "cations"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0121922",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "UMLS:C0121922",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "HIV-1 nucleocapsid (NC) protein"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C1514575",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "UMLS:C1514575",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "template"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0917721",
+            "@type": "biolink:Gene",
+            "biolink:id": "UMLS:C0917721",
+            "biolink:category": "biolink:Gene",
+            "rdfs:label": "HIV-1 pol gene"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/5462222",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:5462222",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "K+"
+        },
+        {
+            "@id": "http://id.nlm.nih.gov/mesh/D008094",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "MESH:D008094",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "Li+"
+        }
+    ],
+    "@annotations": {
+        "@context": {
+            "tao": "http://pubannotation.org/ontology/tao.owl#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@graph": [
+            {
+                "@id": "http://purl.org/nanopub/temp/np#document",
+                "@type": "tao:document_text",
+                "tao:has_value": "A preferred site for HIV-1 recombination was identified in vivo and in vitro surrounding the beginning of the HIV-1 gag gene. This G-rich gag hotspot for recombination contains three evenly spaced G-runs that stalled reverse transcriptase. Disruption of the G-runs suppressed both the associated pausing and strand transfer in vitro. Significantly, this same gag sequence was able to fold into a G-quartet monomer, dimer, and tetramer, depending on the cations employed. The pause band at the G-run (nucleotide (nt) 405–409), which was predicted to be involved in forming a G-quartet monomer, diminished with increased HIV-1 nucleocapsid (NC) protein. More NC induced stronger pauses at other G-runs (nt 363–367 and nt 382–384), a region that forms a G-quartet dimer, adhering the two RNA templates. We hypothesized that NC induces the unfolding of the monomeric G-quartet but stabilizes the dimeric interaction. We tested this by inserting a known G-quartet formation sequence, 5′-(UGGGGU)4-3′, into a relatively structure-free template from the HIV-1 pol gene. Strand transfer assays were performed with cations that either encourage (K+) or discourage (Li+) G-quartet formation with or without NC. Strikingly, a G-quartet monomer was observed without NC, whereas a G-quartet dimer was observed with NC, both only in the presence of K+. Moreover, the transfer efficiency of the dimerized template (with K+ and NC) reached about 90%, approximately 2.5-fold of that of the non-dimerized template. Evidently, template dimerization induced by NC creates a proximity effect, leading to the unique high peak of transfer at the gag recombination hotspot.\n",
+                "rdfs:seeAlso": {
+                    "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191025/"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-21:26",
+                "tao:begins_at": 21,
+                "tao:ends_at": 26,
+                "tao:has_value": "HIV-1",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_11676"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-116:124",
+                "tao:begins_at": 116,
+                "tao:ends_at": 124,
+                "tao:has_value": "gag gene",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0017346"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-217:238",
+                "tao:begins_at": 217,
+                "tao:ends_at": 238,
+                "tao:has_value": "reverse transcriptase",
+                "tao:denotes": {
+                    "@id": "http://id.nlm.nih.gov/mesh/D012194"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-415:420",
+                "tao:begins_at": 415,
+                "tao:ends_at": 420,
+                "tao:has_value": "dimer",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/102407504"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-426:434",
+                "tao:begins_at": 426,
+                "tao:ends_at": 434,
+                "tao:has_value": "tetramer",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/139048787"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-453:460",
+                "tao:begins_at": 453,
+                "tao:ends_at": 460,
+                "tao:has_value": "cations",
+                "tao:denotes": {
+                    "@id": "http://id.nlm.nih.gov/mesh/D002412"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-619:650",
+                "tao:begins_at": 619,
+                "tao:ends_at": 650,
+                "tao:has_value": "HIV-1 nucleocapsid (NC) protein",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0121922"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-789:797",
+                "tao:begins_at": 789,
+                "tao:ends_at": 797,
+                "tao:has_value": "template",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C1514575"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1047:1061",
+                "tao:begins_at": 1047,
+                "tao:ends_at": 1061,
+                "tao:has_value": "HIV-1 pol gene",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0917721"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1137:1139",
+                "tao:begins_at": 1137,
+                "tao:ends_at": 1139,
+                "tao:has_value": "K+",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/5462222"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1156:1159",
+                "tao:begins_at": 1156,
+                "tao:ends_at": 1159,
+                "tao:has_value": "Li+",
+                "tao:denotes": {
+                    "@id": "http://id.nlm.nih.gov/mesh/D008094"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            }
+        ]
+    }
+}

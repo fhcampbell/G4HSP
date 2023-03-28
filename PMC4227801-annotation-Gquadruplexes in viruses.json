@@ -1,0 +1,371 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "biolink": "https://w3id.org/biolink/vocab/",
+        "infores": "https://w3id.org/biolink/infores/",
+        "dct": "http://purl.org/dc/terms/"
+    },
+    "@graph": [
+        {
+            "@id": "https://w3id.org/biolink/infores/knowledge-collaboratory",
+            "@type": "biolink:InformationResource",
+            "biolink:category": "biolink:InformationResource",
+            "biolink:id": "infores:knowledge-collaboratory"
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://identifiers.org/umls/C0162326"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/affects_folding_of"
+            },
+            "rdf:object": {
+                "@id": "G4-forming oligonucleotides"
+            },
+            "biolink:id": "collaboratory:UMLS:C0162326-biolink:affects_folding_of-undefined",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://identifiers.org/umls/C0017429"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/contains"
+            },
+            "rdf:object": {
+                "@id": "http://identifiers.org/umls/C0162326"
+            },
+            "biolink:id": "collaboratory:UMLS:C0017429-biolink:contains-UMLS:C0162326",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": ""
+            },
+            "rdf:predicate": {
+                "@id": ""
+            },
+            "rdf:object": {
+                "@id": ""
+            },
+            "biolink:id": "collaboratory:undefined-undefined-undefined",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+            }
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10376",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "NCBITaxon:10376",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "Epstein-Barr virus"
+        },
+        {
+            "@id": "http://identifiers.org/pubchem.compound/51346143",
+            "@type": "biolink:ChemicalEntity",
+            "biolink:id": "PUBCHEM.COMPOUND:51346143",
+            "biolink:category": "biolink:ChemicalEntity",
+            "rdfs:label": "guanines"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0162326",
+            "@type": "biolink:Gene",
+            "biolink:id": "UMLS:C0162326",
+            "biolink:category": "biolink:Gene",
+            "rdfs:label": "DNA sequences"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0017429",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "UMLS:C0017429",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "human genome"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCBITaxon_12721",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "NCBITaxon:12721",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "Human immunodeficiency virus"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0030358",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "UMLS:C0030358",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "papillomavirus"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C1567953",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "UMLS:C1567953",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "DNA aptamers"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCBITaxon_12092",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "NCBITaxon:12092",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "hepatitis A virus"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C1456463",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "UMLS:C1456463",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "cauliflower mosaic virus"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C5574851",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "UMLS:C5574851",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "severe acute respiratory syndrome virus"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCBITaxon_1891767",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "NCBITaxon:1891767",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "simian virus 40"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0446148",
+            "@type": "biolink:Disease",
+            "biolink:id": "UMLS:C0446148",
+            "biolink:category": "biolink:Disease",
+            "rdfs:label": "virus life cycle"
+        },
+        {
+            "@id": "http://id.nlm.nih.gov/mesh/D000998",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "MESH:D000998",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "antiviral agents"
+        }
+    ],
+    "@annotations": {
+        "@context": {
+            "tao": "http://pubannotation.org/ontology/tao.owl#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@graph": [
+            {
+                "@id": "http://purl.org/nanopub/temp/np#document",
+                "@type": "tao:document_text",
+                "tao:has_value": "G-rich nucleic acids can form non-canonical G-quadruplex structures (G4s) in which four guanines fold in a planar arrangement through Hoogsteen hydrogen bonds. Although many biochemical and structural studies have focused on DNA sequences containing successive, adjacent guanines that spontaneously fold into G4s, evidence for their in vivo relevance has recently begun to accumulate. Complete sequencing of the human genome highlighted the presence of ∼300 000 sequences that can potentially form G4s. Likewise, the presence of putative G4-sequences has been reported in various viruses genomes [e.g., Human immunodeficiency virus (HIV-1), Epstein–Barr virus (EBV), papillomavirus (HPV)]. Many studies have focused on telomeric G4s and how their dynamics are regulated to enable telomere synthesis. Moreover, a role for G4s has been proposed in cellular and viral replication, recombination and gene expression control. In parallel, DNA aptamers that form G4s have been described as inhibitors and diagnostic tools to detect viruses [e.g., hepatitis A virus (HAV), EBV, cauliflower mosaic virus (CaMV), severe acute respiratory syndrome virus (SARS), simian virus 40 (SV40)]. Here, special emphasis will be given to the possible role of these structures in a virus life cycle as well as the use of G4-forming oligonucleotides as potential antiviral agents and innovative tools",
+                "rdfs:seeAlso": {
+                    "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation--1:17",
+                "tao:begins_at": -1,
+                "tao:ends_at": 17,
+                "tao:has_value": "Epstein-Barr virus",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10376"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-88:96",
+                "tao:begins_at": 88,
+                "tao:ends_at": 96,
+                "tao:has_value": "guanines",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/pubchem.compound/51346143"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-225:238",
+                "tao:begins_at": 225,
+                "tao:ends_at": 238,
+                "tao:has_value": "DNA sequences",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0162326"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-412:424",
+                "tao:begins_at": 412,
+                "tao:ends_at": 424,
+                "tao:has_value": "human genome",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0017429"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-603:631",
+                "tao:begins_at": 603,
+                "tao:ends_at": 631,
+                "tao:has_value": "Human immunodeficiency virus",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_12721"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-667:681",
+                "tao:begins_at": 667,
+                "tao:ends_at": 681,
+                "tao:has_value": "papillomavirus",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0030358"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-934:946",
+                "tao:begins_at": 934,
+                "tao:ends_at": 946,
+                "tao:has_value": "DNA aptamers",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C1567953"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1041:1058",
+                "tao:begins_at": 1041,
+                "tao:ends_at": 1058,
+                "tao:has_value": "hepatitis A virus",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_12092"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1071:1095",
+                "tao:begins_at": 1071,
+                "tao:ends_at": 1095,
+                "tao:has_value": "cauliflower mosaic virus",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C1456463"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1104:1143",
+                "tao:begins_at": 1104,
+                "tao:ends_at": 1143,
+                "tao:has_value": "severe acute respiratory syndrome virus",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C5574851"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1152:1167",
+                "tao:begins_at": 1152,
+                "tao:ends_at": 1167,
+                "tao:has_value": "simian virus 40",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_1891767"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1260:1276",
+                "tao:begins_at": 1260,
+                "tao:ends_at": 1276,
+                "tao:has_value": "virus life cycle",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0446148"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1340:1356",
+                "tao:begins_at": 1340,
+                "tao:ends_at": 1356,
+                "tao:has_value": "antiviral agents",
+                "tao:denotes": {
+                    "@id": "http://id.nlm.nih.gov/mesh/D000998"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            }
+        ]
+    }
+}

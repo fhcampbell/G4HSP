@@ -1,0 +1,317 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "biolink": "https://w3id.org/biolink/vocab/",
+        "infores": "https://w3id.org/biolink/infores/",
+        "dct": "http://purl.org/dc/terms/"
+    },
+    "@graph": [
+        {
+            "@id": "https://w3id.org/biolink/infores/knowledge-collaboratory",
+            "@type": "biolink:InformationResource",
+            "biolink:category": "biolink:InformationResource",
+            "biolink:id": "infores:knowledge-collaboratory"
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://identifiers.org/umls/C1167395"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/affects"
+            },
+            "rdf:object": {
+                "@id": "http://purl.obolibrary.org/obo/NCBITaxon_11676"
+            },
+            "biolink:id": "collaboratory:UMLS:C1167395-biolink:affects-NCBITaxon:11676",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://identifiers.org/uniprot/P25685"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/interacts_with"
+            },
+            "rdf:object": {
+                "@id": "http://purl.obolibrary.org/obo/NCBITaxon_11676"
+            },
+            "biolink:id": "collaboratory:UniProtKB:P25685-biolink:interacts_with-NCBITaxon:11676",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://purl.obolibrary.org/obo/PR_000022465"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/interacts_with"
+            },
+            "rdf:object": {
+                "@id": "http://purl.obolibrary.org/obo/NCBITaxon_11676"
+            },
+            "biolink:id": "collaboratory:PR:000022465-biolink:interacts_with-NCBITaxon:11676",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+            }
+        },
+        {
+            "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/",
+            "@type": "biolink:Publication",
+            "biolink:category": "biolink:Publication",
+            "biolink:id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+        },
+        {
+            "@type": "biolink:Association",
+            "biolink:category": "biolink:Association",
+            "rdf:subject": {
+                "@id": "http://purl.obolibrary.org/obo/PR_000008823"
+            },
+            "rdf:predicate": {
+                "@id": "https://w3id.org/biolink/vocab/inhibits"
+            },
+            "rdf:object": {
+                "@id": "http://purl.obolibrary.org/obo/NCBITaxon_11676"
+            },
+            "biolink:id": "collaboratory:PR:000008823-biolink:inhibits-NCBITaxon:11676",
+            "biolink:aggregator_knowledge_source": {
+                "@id": "infores:knowledge-collaboratory"
+            },
+            "https://w3id.org/biolink/vocab/publications": {
+                "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+            }
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/NCBITaxon_11676",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "NCBITaxon:11676",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "HIV-1"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C1167395",
+            "@type": "biolink:OrganismTaxon",
+            "biolink:id": "UMLS:C1167395",
+            "biolink:category": "biolink:OrganismTaxon",
+            "rdfs:label": "host"
+        },
+        {
+            "@id": "http://identifiers.org/uniprot/P25685",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "UniProtKB:P25685",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "HSP40"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/PR_000022465",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "PR:000022465",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "HSP70"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/PR_000008823",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "PR:000008823",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "HspBP1"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0023978",
+            "@type": "biolink:Disease",
+            "biolink:id": "UMLS:C0023978",
+            "biolink:category": "biolink:Disease",
+            "rdfs:label": "LTR"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0429403",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "UMLS:C0429403",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "p50"
+        },
+        {
+            "@id": "http://identifiers.org/umls/C0599933",
+            "@type": "biolink:GeneProduct",
+            "biolink:id": "UMLS:C0599933",
+            "biolink:category": "biolink:GeneProduct",
+            "rdfs:label": "p65"
+        },
+        {
+            "@id": "http://purl.obolibrary.org/obo/GO_0019083",
+            "@type": "biolink:Disease",
+            "biolink:id": "GO:0019083",
+            "biolink:category": "biolink:Disease",
+            "rdfs:label": "viral transcription"
+        }
+    ],
+    "@annotations": {
+        "@context": {
+            "tao": "http://pubannotation.org/ontology/tao.owl#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        "@graph": [
+            {
+                "@id": "http://purl.org/nanopub/temp/np#document",
+                "@type": "tao:document_text",
+                "tao:has_value": "HIV-1 efficiently hijacks host cellular machinery and exploits a plethora of host–viral interactions for its successful survival. Identifying host factors that affect susceptibility or resistance to HIV-1 may offer a promising therapeutic strategy against HIV-1. Previously, we have reported that heat shock proteins, HSP40 and HSP70 reciprocally regulate HIV-1 gene-expression and replication. In the present study, we have identified HSP70 binding protein 1 (HspBP1) as a host-intrinsic inhibitor of HIV-1. HspBP1 level was found to be significantly down modulated during HIV-1 infection and virus production inversely co-related with HspBP1 expression. Our results further demonstrate that HspBP1 inhibits HIV-1 long terminal repeat (LTR) promoter activity. Gel shift and chromatin immunoprecipitation assays revealed that HspBP1 was recruited on HIV-1 LTR at NF-κB enhancer region (κB sites). The binding of HspBP1 to κB sites obliterates the binding of NF-κB hetero-dimer (p50/p65) to the same region, leading to repression in NF-κB mediated activation of LTR-driven gene-expression. HspBP1 also plays an inhibitory role in the reactivation of latently infected cells, corroborating its repressive effect on NF-κB pathway. Thus, our results clearly show that HspBP1 acts as an endogenous negative regulator of HIV-1 gene-expression and replication by suppressing NF-κB-mediated activation of viral transcription.",
+                "rdfs:seeAlso": {
+                    "@id": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4770212/"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-0:5",
+                "tao:begins_at": 0,
+                "tao:ends_at": 5,
+                "tao:has_value": "HIV-1",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_11676"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-26:30",
+                "tao:begins_at": 26,
+                "tao:ends_at": 30,
+                "tao:has_value": "host",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C1167395"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-318:323",
+                "tao:begins_at": 318,
+                "tao:ends_at": 323,
+                "tao:has_value": "HSP40",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/uniprot/P25685"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-328:333",
+                "tao:begins_at": 328,
+                "tao:ends_at": 333,
+                "tao:has_value": "HSP70",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/PR_000022465"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-461:467",
+                "tao:begins_at": 461,
+                "tao:ends_at": 467,
+                "tao:has_value": "HspBP1",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/PR_000008823"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-737:740",
+                "tao:begins_at": 737,
+                "tao:ends_at": 740,
+                "tao:has_value": "LTR",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0023978"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-978:981",
+                "tao:begins_at": 978,
+                "tao:ends_at": 981,
+                "tao:has_value": "p50",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0429403"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-982:985",
+                "tao:begins_at": 982,
+                "tao:ends_at": 985,
+                "tao:has_value": "p65",
+                "tao:denotes": {
+                    "@id": "http://identifiers.org/umls/C0599933"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            },
+            {
+                "@type": "tao:text_span",
+                "@id": "http://purl.org/nanopub/temp/np#annotation-1397:1416",
+                "tao:begins_at": 1397,
+                "tao:ends_at": 1416,
+                "tao:has_value": "viral transcription",
+                "tao:denotes": {
+                    "@id": "http://purl.obolibrary.org/obo/GO_0019083"
+                },
+                "tao:part_of": {
+                    "@id": "http://purl.org/nanopub/temp/np#document"
+                }
+            }
+        ]
+    }
+}

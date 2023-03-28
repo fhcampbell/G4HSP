@@ -1,0 +1,57 @@
+@prefix biolink: <https://w3id.org/biolink/vocab/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix infores: <https://w3id.org/biolink/infores/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sub: <http://purl.org/np/RAhlXiv9Y8_TKzDn1NW-5Mh1Iv84Dh2yXNHYua_GK33pY#> .
+@prefix tao: <http://pubannotation.org/ontology/tao.owl#> .
+@prefix this: <http://purl.org/np/RAhlXiv9Y8_TKzDn1NW-5Mh1Iv84Dh2yXNHYua_GK33pY> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sub:pubinfo {
+    sub:sig npx:hasAlgorithm "RSA" ;
+        npx:hasPublicKey """-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxZTf2h3/CJ/2MwKlj5qq
+FAZZLJNBAt1IBcgP3CmKKliV4UYnBvEu5YrWAqpnYtx0/BA4tYDeFs+enjwLrwXM
+pgIfLrszaRU7+nwX7j9+91Ak2aGVQ8irLrxKPlqGVBFYtzq6Vt84u2OdHSxOLkD2
+4lhZN1Iy2G49QcPOC/QqMeF2MvI+xXg/lXXxjwx4IW2ZjLMryqoBCKDjrbx8j9Q2
+/DzpI1m0ygfS4qYXfdvYSAj8ikjaWtLL8aAOIs2UnLPB2uxVslPjHoXeYT817OCP
+KTvBBXrdcyw2vnEj847dWYe26py/M2Un/tclp5kEBKfkn6yYEzuHqM6gBWV9B8zh
+swIDAQAB
+-----END PUBLIC KEY-----""" ;
+        npx:hasSignature "ggKtBxE21EARf1vHgP4hEhQT/1Qs1gCk90Q348RXLcPdq6TJ5ZiywZogzJJ0wrp63NGuY8RKEE1nFCIMHi5j0f4m3ELLj7LrVyMouepsDQ7jocCT3tvQu+ninqKQOJEkDn+4orHWIPtj7/NVp2GLcQ4COmZ1EXyvhgZT/XSiXTzAKYHSOkFT/K8vugTm14hEoM+kjkM8ezh5YDgWW1oBJ8Cz7tUuoDEnUIPgYa4pHqL02+alzxmzu7La+iultBs6EE8dAPVGdsZhtMfT2sM0d4Ya8C0UuaRLSZG8jvlFQxJvx10JP41JGXz3C29mGF9H/Zeysvu9ZC6UVUY/S7IFHg==" ;
+        npx:hasSignatureTarget this: .
+
+    this: dct:conformsTo biolink: ;
+        prov:generatedAtTime "2023-03-23T21:10:33.304899"^^xsd:dateTime ;
+        prov:wasAttributedTo orcid:0000-0002-0546-6200 .
+
+    biolink: pav:version "3.1.0" .
+}
+
+sub:provenance {
+    sub:assertion prov:generatedAtTime "2023-03-23T21:10:33.304899"^^xsd:dateTime ;
+        prov:hadPrimarySource <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121897/> ;
+        prov:wasAttributedTo orcid:0000-0002-0546-6200 .
+
+    sub:document a tao:document_text ;
+        tao:has_value "One of the most intriguing and less known aspects of the interaction between viruses and their host is the impact of the viral infection on the heat shock response (HSR). While both a positive and a negative role of different heat shock proteins (HSP) in the control of virus replication has been hypothesized, HSP function during the virus replication cycle is still not well understood. This chapter describes different aspects of the interactions between viruses and heat shock proteins during infection of mammalian cells: the first part focuses on the modulation of the heat shock response by human viral pathogens; the second describes the interactions of HSP and other chaperones with viral components, and their function during different steps of the virus replication cycle; the last part summarizes our knowledge on the effect of hyperthermia and HSR modulators on virus replication" ;
+        rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7121897/> .
+}
+
+sub:assertion {
+    infores:knowledge-collaboratory a biolink:InformationResource ;
+        biolink:category "biolink:InformationResource" ;
+        biolink:id "infores:knowledge-collaboratory" .
+}
+
+sub:Head {
+    this: a np:Nanopublication ;
+        np:hasAssertion sub:assertion ;
+        np:hasProvenance sub:provenance ;
+        np:hasPublicationInfo sub:pubinfo .
+}
