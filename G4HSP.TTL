@@ -1,0 +1,1017 @@
+@prefix ns0: <https://w3id.org/biolink/vocab/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://w3id.org/biolink/infores/knowledge-collaboratory>
+  a <https://w3id.org/biolink/vocab/InformationResource> ;
+  ns0:category "biolink:InformationResource"^^xsd:string ;
+  ns0:id "infores:knowledge-collaboratory"^^xsd:string .
+
+<https://dailymed.nhttps://link.springer.com/article/10.1007/s12192-021-01223-3lm.nih.gov/dailymed/drugInfo.cfm?setid=acbce0e8-5098-4785-943b-8bdb5ff17fab>
+  a ns0:Publication ;
+  ns0:category "biolink:Publication"^^xsd:string ;
+  ns0:id "https://dailymed.nhttps://link.springer.com/article/10.1007/s12192-021-01223-3lm.nih.gov/dailymed/drugInfo.cfm?setid=acbce0e8-5098-4785-943b-8bdb5ff17fab"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/GO_0005622>
+  a ns0:OrganismTaxon ;
+  rdfs:label "Intracellular"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "GO:0005622"^^xsd:string .
+
+<http://identifiers.org/uniprot/Q5EBG6>
+  a ns0:GeneProduct ;
+  rdfs:label "HSPB6"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "UniProtKB:Q5EBG6"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/CL_0000000>
+  a ns0:OrganismTaxon ;
+  rdfs:label "Cell"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "CL:0000000"^^xsd:string .
+
+<http://identifiers.org/umls/C1167395>
+  a ns0:OrganismTaxon ;
+  rdfs:label "Host"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "UMLS:C1167395"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/NCBITaxon_9606>
+  a ns0:OrganismTaxon ;
+  rdfs:label "Human"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "NCBITaxon:9606"^^xsd:string .
+
+<http://identifiers.org/umls/C1383501>
+  a ns0:OrganismTaxon ;
+  rdfs:label "Cytosol"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "UMLS:C1383501"^^xsd:string .
+
+<http://identifiers.org/ncbigene/126393>
+  a ns0:Gene, ns0:GeneProduct ;
+  rdfs:label "PPP1R91"^^xsd:string, "FLJ32389"^^xsd:string, "HSP20"^^xsd:string ;
+  ns0:category "biolink:Gene"^^xsd:string, "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "NCBIGene:126393"^^xsd:string .
+
+<http://identifiers.org/unii/EA6MNS8JXJ>
+  a ns0:OrganismTaxon ;
+  rdfs:label "nucleoli"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "UNII:EA6MNS8JXJ"^^xsd:string .
+
+<http://id.nlm.nih.gov/mesh/D006056>
+  a ns0:OrganismTaxon ;
+  rdfs:label "Golgi apparatus"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "MESH:D006056"^^xsd:string .
+
+<http://id.nlm.nih.gov/mesh/C072591>
+  a ns0:ChemicalEntity ;
+  rdfs:label "160 aa"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "MESH:C072591"^^xsd:string .
+
+<http://identifiers.org/ncbigene/94274>
+  a ns0:ChemicalEntity ;
+  rdfs:label "17 kDA"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "NCBIGene:94274"^^xsd:string .
+
+<http://identifiers.org/uniprot/P35385>
+  a ns0:GeneProduct, ns0:Gene ;
+  rdfs:label "HSPB7"^^xsd:string, "CvHSP"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string, "biolink:Gene"^^xsd:string ;
+  ns0:id "UniProtKB:P35385"^^xsd:string .
+
+<http://identifiers.org/umls/C0682537>
+  a ns0:OrganismTaxon ;
+  rdfs:label "Nucleoplasm"^^xsd:string, "nucleoplasm"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "UMLS:C0682537"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/PR_000028157>
+  a ns0:ChemicalEntity ;
+  rdfs:label "19 kDA"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "PR:000028157"^^xsd:string .
+
+<http://identifiers.org/uniprot/Q9EPX0>
+  a ns0:GeneProduct, ns0:Gene ;
+  rdfs:label "HSPB8"^^xsd:string, "CRYAC"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string, "biolink:Gene"^^xsd:string ;
+  ns0:id "UniProtKB:Q9EPX0"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/PR_000008820>
+  a ns0:Gene ;
+  rdfs:label "E2IG1"^^xsd:string, "PP1629"^^xsd:string ;
+  ns0:category "biolink:Gene"^^xsd:string ;
+  ns0:id "PR:000008820"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/MONDO_0012096>
+  a ns0:Gene ;
+  rdfs:label "CMT2L"^^xsd:string ;
+  ns0:category "biolink:Gene"^^xsd:string ;
+  ns0:id "MONDO:0012096"^^xsd:string .
+
+<http://id.nlm.nih.gov/mesh/D000088202>
+  a ns0:OrganismTaxon ;
+  rdfs:label "nuclear bodies"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "MESH:D000088202"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/NCBITaxon_1983391>
+  a ns0:ChemicalEntity ;
+  rdfs:label "196 aa"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "NCBITaxon:1983391"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/PR_000007534>
+  a ns0:ChemicalEntity ;
+  rdfs:label "22 kDA"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "PR:000007534"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/PR_000008821>
+  a ns0:GeneProduct, ns0:Gene ;
+  rdfs:label "HSPB9"^^xsd:string, "CT51"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string, "biolink:Gene"^^xsd:string ;
+  ns0:id "PR:000008821"^^xsd:string .
+
+<http://identifiers.org/pubchem.compound/25216475>
+  a ns0:ChemicalEntity ;
+  rdfs:label "159 aa"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "PUBCHEM.COMPOUND:25216475"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/PR_000011597>
+  a ns0:GeneProduct, ns0:Gene ;
+  rdfs:label "HSPB10"^^xsd:string, "ODF1"^^xsd:string, "ODFP"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string, "biolink:Gene"^^xsd:string ;
+  ns0:id "PR:000011597"^^xsd:string .
+
+<http://identifiers.org/ncbigene/4956>
+  a ns0:Gene ;
+  rdfs:label "CT133"^^xsd:string, "ODFPG"^^xsd:string ;
+  ns0:category "biolink:Gene"^^xsd:string ;
+  ns0:id "NCBIGene:4956"^^xsd:string .
+
+<http://identifiers.org/uniprot/P21769>
+  a ns0:Gene ;
+  rdfs:label "ODF27"^^xsd:string ;
+  ns0:category "biolink:Gene"^^xsd:string ;
+  ns0:id "UniProtKB:P21769"^^xsd:string .
+
+<https://w3id.org/biolink/infores/knowledge-collaboratory>
+  a <https://w3id.org/biolink/vocab/InformationResource> ;
+  ns0:category "biolink:InformationResource"^^xsd:string ;
+  ns0:id "infores:knowledge-collaboratory"^^xsd:string .
+
+<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/>
+  a ns0:Publication ;
+  ns0:category "biolink:Publication"^^xsd:string ;
+  ns0:id "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"^^xsd:string .
+
+<http://identifiers.org/uniprot/Q38833>
+  a ns0:ChemicalEntity ;
+  rdfs:label "G4"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "UniProtKB:Q38833"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/NCIT_C13725>
+  a ns0:ChemicalEntity ;
+  rdfs:label "G-quadruplex"^^xsd:string, "G-tetrads"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "NCIT:C13725"^^xsd:string .
+
+<http://id.nlm.nih.gov/mesh/C105609>
+  a ns0:ChemicalEntity ;
+  rdfs:label "Grich"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "MESH:C105609"^^xsd:string .
+
+<http://id.nlm.nih.gov/mesh/D012045>
+  a ns0:GeneProduct ;
+  rdfs:label "nucleic acid sequences"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "MESH:D012045"^^xsd:string .
+
+<http://identifiers.org/pubchem.compound/44135672>
+  a ns0:GeneProduct ;
+  rdfs:label "DNA"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "PUBCHEM.COMPOUND:44135672"^^xsd:string .
+
+<http://identifiers.org/uniprot/P21338>
+  a ns0:GeneProduct ;
+  rdfs:label "RNA"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "UniProtKB:P21338"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/UBERON_0001555>
+  a ns0:Gene ;
+  rdfs:label "G-tracts"^^xsd:string ;
+  ns0:category "biolink:Gene"^^xsd:string ;
+  ns0:id "UBERON:0001555"^^xsd:string .
+
+<http://identifiers.org/umls/C0319157>
+  a ns0:OrganismTaxon ;
+  rdfs:label "virus"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "UMLS:C0319157"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/NCBITaxon_11676>
+  a ns0:OrganismTaxon ;
+  rdfs:label "HIV-1"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "NCBITaxon:11676"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/NCIT_C13202>
+  a ns0:GeneProduct ;
+  rdfs:label "chromosome"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "NCIT:C13202"^^xsd:string .
+
+<http://id.nlm.nih.gov/mesh/D002467>
+  a ns0:OrganismTaxon ;
+  rdfs:label "nucleus"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "MESH:D002467"^^xsd:string .
+
+<http://identifiers.org/umls/C1167395>
+  a ns0:OrganismTaxon ;
+  rdfs:label "host"^^xsd:string ;
+  ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+  ns0:id "UMLS:C1167395"^^xsd:string .
+
+<http://identifiers.org/umls/C0017428>
+  a ns0:GeneProduct ;
+  rdfs:label "genome"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "UMLS:C0017428"^^xsd:string .
+
+<http://identifiers.org/pubchem.compound/51346143>
+  a ns0:ChemicalEntity ;
+  rdfs:label "guanines"^^xsd:string ;
+  ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+  ns0:id "PUBCHEM.COMPOUND:51346143"^^xsd:string .
+
+<http://identifiers.org/hmdb/HMDB0255955>
+  a ns0:GeneProduct ;
+  rdfs:label "oligonucleotides"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "HMDB:HMDB0255955"^^xsd:string .
+
+<http://identifiers.org/umls/C3549000>
+  a ns0:GeneProduct ;
+  rdfs:label "linkers"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "UMLS:C3549000"^^xsd:string .
+
+<http://identifiers.org/umls/C0181687>
+  a ns0:GeneProduct ;
+  rdfs:label "loops"^^xsd:string ;
+  ns0:category "biolink:GeneProduct"^^xsd:string ;
+  ns0:id "UMLS:C0181687"^^xsd:string .
+
+  <https://w3id.org/biolink/infores/knowledge-collaboratory>
+    a <https://w3id.org/biolink/vocab/InformationResource> ;
+    ns0:category "biolink:InformationResource"^^xsd:string ;
+    ns0:id "infores:knowledge-collaboratory"^^xsd:string .
+  
+  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/>
+    a ns0:Publication ;
+    ns0:category "biolink:Publication"^^xsd:string ;
+    ns0:id "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/"^^xsd:string .
+  
+  <http://identifiers.org/uniprot/Q38833>
+    a ns0:ChemicalEntity ;
+    rdfs:label "G4"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "UniProtKB:Q38833"^^xsd:string .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C13725>
+    a ns0:ChemicalEntity ;
+    rdfs:label "G-quadruplex"^^xsd:string, "G-tetrads"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "NCIT:C13725"^^xsd:string .
+  
+  <http://id.nlm.nih.gov/mesh/C105609>
+    a ns0:ChemicalEntity ;
+    rdfs:label "Grich"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "MESH:C105609"^^xsd:string .
+  
+  <http://id.nlm.nih.gov/mesh/D012045>
+    a ns0:GeneProduct ;
+    rdfs:label "nucleic acid sequences"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "MESH:D012045"^^xsd:string .
+  
+  <http://identifiers.org/pubchem.compound/44135672>
+    a ns0:GeneProduct ;
+    rdfs:label "DNA"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "PUBCHEM.COMPOUND:44135672"^^xsd:string .
+  
+  <http://identifiers.org/uniprot/P21338>
+    a ns0:GeneProduct ;
+    rdfs:label "RNA"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:P21338"^^xsd:string .
+  
+  <http://purl.obolibrary.org/obo/UBERON_0001555>
+    a ns0:Gene ;
+    rdfs:label "G-tracts"^^xsd:string ;
+    ns0:category "biolink:Gene"^^xsd:string ;
+    ns0:id "UBERON:0001555"^^xsd:string .
+  
+  <http://identifiers.org/umls/C0319157>
+    a ns0:OrganismTaxon ;
+    rdfs:label "virus"^^xsd:string ;
+    ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+    ns0:id "UMLS:C0319157"^^xsd:string .
+  
+  <http://purl.obolibrary.org/obo/NCBITaxon_11676>
+    a ns0:OrganismTaxon ;
+    rdfs:label "HIV-1"^^xsd:string ;
+    ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+    ns0:id "NCBITaxon:11676"^^xsd:string .
+  
+  <http://purl.obolibrary.org/obo/NCIT_C13202>
+    a ns0:GeneProduct ;
+    rdfs:label "chromosome"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "NCIT:C13202"^^xsd:string .
+  
+  <http://id.nlm.nih.gov/mesh/D002467>
+    a ns0:OrganismTaxon ;
+    rdfs:label "nucleus"^^xsd:string ;
+    ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+    ns0:id "MESH:D002467"^^xsd:string .
+  
+  <http://identifiers.org/umls/C1167395>
+    a ns0:OrganismTaxon ;
+    rdfs:label "host"^^xsd:string ;
+    ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+    ns0:id "UMLS:C1167395"^^xsd:string .
+  
+  <http://identifiers.org/umls/C0017428>
+    a ns0:GeneProduct ;
+    rdfs:label "genome"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0017428"^^xsd:string .
+  
+  <http://identifiers.org/pubchem.compound/51346143>
+    a ns0:ChemicalEntity ;
+    rdfs:label "guanines"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "PUBCHEM.COMPOUND:51346143"^^xsd:string .
+  
+  <http://identifiers.org/hmdb/HMDB0255955>
+    a ns0:GeneProduct ;
+    rdfs:label "oligonucleotides"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "HMDB:HMDB0255955"^^xsd:string .
+  
+  <http://identifiers.org/umls/C3549000>
+    a ns0:GeneProduct ;
+    rdfs:label "linkers"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C3549000"^^xsd:string .
+  
+  <http://identifiers.org/umls/C0181687>
+    a ns0:GeneProduct ;
+    rdfs:label "loops"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0181687"^^xsd:string .
+ 
+    <https://w3id.org/biolink/infores/knowledge-collaboratory>
+      a <https://w3id.org/biolink/vocab/InformationResource> ;
+      ns0:category "biolink:InformationResource"^^xsd:string ;
+      ns0:id "infores:knowledge-collaboratory"^^xsd:string .
+    
+    <http://purl.obolibrary.org/obo/NCBITaxon_12721>
+      a ns0:Disease ;
+      rdfs:label "HIV"^^xsd:string, "human immunodeficiency virus"^^xsd:string ;
+      ns0:category "biolink:Disease"^^xsd:string ;
+      ns0:id "NCBITaxon:12721"^^xsd:string .
+    
+    <http://identifiers.org/umls/C0319157>
+      a ns0:OrganismTaxon ;
+      rdfs:label "virus"^^xsd:string ;
+      ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+      ns0:id "UMLS:C0319157"^^xsd:string .
+    
+    <http://purl.obolibrary.org/obo/NCBITaxon_11676>
+      a ns0:OrganismTaxon ;
+      rdfs:label "HIV-1"^^xsd:string ;
+      ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+      ns0:id "NCBITaxon:11676"^^xsd:string .
+    
+    <http://identifiers.org/uniprot/P21338>
+      a ns0:ChemicalEntity ;
+      rdfs:label "RNA"^^xsd:string ;
+      ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+      ns0:id "UniProtKB:P21338"^^xsd:string .
+        
+    <https://w3id.org/biolink/infores/knowledge-collaboratory> 
+    a <https://w3id.org/biolink/vocab/InformationResource> ;
+    ns0:category "biolink:InformationResource"^^xsd:string ;
+    ns0:id "infores:knowledge-collaboratory"^^xsd:string .
+
+    <https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell>
+    a ns0:Publication ;
+    ns0:category "biolink:Publication"^^xsd:string ;
+    ns0:id "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell"^^xsd:string .
+
+    <http://identifiers.org/umls/C0025255>
+    a ns0:GeneProduct ;
+    rdfs:label "Membrane"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0025255"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/CL_0000000>
+    a ns0:OrganismTaxon ;
+    rdfs:label "Cell"^^xsd:string ;
+    ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+    ns0:id "CL:0000000"^^xsd:string .
+
+    <http://id.nlm.nih.gov/mesh/D002467>
+    a ns0:GeneProduct ;
+    rdfs:label "Nucleus"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "MESH:D002467"^^xsd:string .
+
+    <http://id.nlm.nih.gov/mesh/D003593>
+    a ns0:GeneProduct ;
+    rdfs:label "Cytoplasm"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "MESH:D003593"^^xsd:string .
+
+    <http://id.nlm.nih.gov/mesh/D002466>
+    a ns0:GeneProduct ;
+    rdfs:label "Nucleolus"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "MESH:D002466"^^xsd:string .
+
+    <http://identifiers.org/pubchem.compound/44135672>
+    a ns0:ChemicalEntity ;
+    rdfs:label "DNA"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "PUBCHEM.COMPOUND:44135672"^^xsd:string .
+
+    <http://identifiers.org/uniprot/P21338>
+    a ns0:ChemicalEntity ;
+    rdfs:label "RNA"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "UniProtKB:P21338"^^xsd:string .
+  
+    <https://w3id.org/biolink/infores/knowledge-collaboratory>
+    a <https://w3id.org/biolink/vocab/InformationResource> ;
+    ns0:category "biolink:InformationResource"^^xsd:string ;
+    ns0:id "infores:knowledge-collaboratory"^^xsd:string .
+
+    <https://link.springer.com/article/10.1007/s12192-021-01223-3>
+    a ns0:Publication ;
+    ns0:category "biolink:Publication"^^xsd:string ;
+    ns0:id "https://link.springer.com/article/10.1007/s12192-021-01223-3"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/PR_000025349>
+    a ns0:GeneProduct ;
+    rdfs:label "sHSP"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "PR:000025349"^^xsd:string .
+
+    <http://identifiers.org/uniprot/P02518>
+    a ns0:GeneProduct ;
+    rdfs:label "HSP27"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:P02518"^^xsd:string .
+
+    <http://identifiers.org/umls/C0002257>
+    a ns0:GeneProduct ;
+    rdfs:label "Alpha A crystallin"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0002257"^^xsd:string .
+
+    <http://identifiers.org/umls/C1336952>
+    a ns0:GeneProduct ;
+    rdfs:label "C-terminal domain"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C1336952"^^xsd:string .
+
+    <http://identifiers.org/umls/C1167395>
+    a ns0:OrganismTaxon ;
+    rdfs:label "host"^^xsd:string ;
+    ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+    ns0:id "UMLS:C1167395"^^xsd:string .
+
+    <http://identifiers.org/umls/C0524533>
+    a ns0:GeneProduct ;
+    rdfs:label "Alpha B crystallin"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0524533"^^xsd:string .
+
+    <http://identifiers.org/umls/C0042736>
+    a ns0:GeneProduct ;
+    rdfs:label "viral proteins"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0042736"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/CL_0000000>
+    a ns0:Cell ;
+    rdfs:label "cell"^^xsd:string ;
+    ns0:category "biolink:Cell"^^xsd:string ;
+    ns0:id "CL:0000000"^^xsd:string .
+
+    <http://identifiers.org/uniprot/P04792>
+    a ns0:GeneProduct ;
+    rdfs:label "Heat Shock Protein 27"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:P04792"^^xsd:string .
+
+    <http://identifiers.org/uniprot/Q16539>
+    a ns0:GeneProduct ;
+    rdfs:label "p38 MAPK"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:Q16539"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/GO_0071620>
+    a ns0:ChemicalEntity ;
+    rdfs:label "serine residues"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "GO:0071620"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/CHEBI_132554>
+    a ns0:ChemicalEntity ;
+    rdfs:label "oligomers"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "CHEBI:132554"^^xsd:string .
+
+    <http://identifiers.org/kegg.compound/C22381>
+    a ns0:ChemicalEntity ;
+    rdfs:label "reactive oxygen species"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "KEGG.COMPOUND:C22381"^^xsd:string .
+
+    <http://identifiers.org/umls/C0428578>
+    a ns0:ChemicalEntity ;
+    rdfs:label "iron levels"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "UMLS:C0428578"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/PR_000006283>
+    a ns0:GeneProduct ;
+    rdfs:label "DAXX"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "PR:000006283"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/GO_0006915>
+    a ns0:ChemicalEntity ;
+    rdfs:label "apoptosis"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "GO:0006915"^^xsd:string .
+
+    <http://identifiers.org/uniprot/Q07812>
+    a ns0:GeneProduct ;
+    rdfs:label "Bax"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:Q07812"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/NCBITaxon_11676>
+    a ns0:OrganismTaxon ;
+    rdfs:label "HIV-1"^^xsd:string ;
+    ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+    ns0:id "NCBITaxon:11676"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/NCIT_C53791>
+    a ns0:Disease ;
+    rdfs:label "infection"^^xsd:string ;
+    ns0:category "biolink:Disease"^^xsd:string ;
+    ns0:id "NCIT:C53791"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/NCIT_C12476>
+    a ns0:Cell ;
+    rdfs:label "T-cell"^^xsd:string ;
+    ns0:category "biolink:Cell"^^xsd:string ;
+    ns0:id "NCIT:C12476"^^xsd:string .
+
+    <http://identifiers.org/umls/C0024264>
+    a ns0:OrganismTaxon ;
+    rdfs:label "lymphocytic"^^xsd:string ;
+    ns0:category "biolink:OrganismTaxon"^^xsd:string ;
+    ns0:id "UMLS:C0024264"^^xsd:string .
+
+    <http://identifiers.org/umls/C0003323>
+    a ns0:ChemicalEntity ;
+    rdfs:label "CD4+"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "UMLS:C0003323"^^xsd:string .
+
+    <http://id.nlm.nih.gov/mesh/D012333>
+    a ns0:GeneProduct ;
+    rdfs:label "mRNA"^^xsd:string, "messenger RNA"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "MESH:D012333"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/GO_0019835>
+    a ns0:ChemicalEntity ;
+    rdfs:label "cytolysis"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "GO:0019835"^^xsd:string .
+
+    <http://identifiers.org/umls/C0079423>
+    a ns0:GeneProduct ;
+    rdfs:label "Vpr"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0079423"^^xsd:string .
+
+    <http://identifiers.org/umls/C0079405>
+    a ns0:GeneProduct ;
+    rdfs:label "viral protein R"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0079405"^^xsd:string .
+
+    <http://identifiers.org/uniprot/Q00613>
+    a ns0:GeneProduct ;
+    rdfs:label "HSF1"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:Q00613"^^xsd:string .
+
+    <http://id.nlm.nih.gov/mesh/D016827>
+    a ns0:Cell ;
+    rdfs:label "CD8+"^^xsd:string ;
+    ns0:category "biolink:Cell"^^xsd:string ;
+    ns0:id "MESH:D016827"^^xsd:string .
+
+    <http://identifiers.org/umls/C0054965>
+    a ns0:Cell ;
+    rdfs:label "CD57+"^^xsd:string ;
+    ns0:category "biolink:Cell"^^xsd:string ;
+    ns0:id "UMLS:C0054965"^^xsd:string .
+
+    <http://identifiers.org/umls/C1442792>
+    a ns0:ChemicalEntity ;
+    rdfs:label "state"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "UMLS:C1442792"^^xsd:string .
+
+    <http://id.nlm.nih.gov/mesh/D000089582>
+    a ns0:ChemicalEntity ;
+    rdfs:label "vaccine adjuvant"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "MESH:D000089582"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/PR_000022465>
+    a ns0:GeneProduct ;
+    rdfs:label "HSP70"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "PR:000022465"^^xsd:string .
+
+    <http://id.nlm.nih.gov/mesh/D002462>
+    a ns0:CellMembrane ;
+    rdfs:label "plasma membrane"^^xsd:string ;
+    ns0:category "biolink:CellMembrane"^^xsd:string ;
+    ns0:id "MESH:D002462"^^xsd:string .
+
+    <http://identifiers.org/uniprot/P02489>
+    a ns0:GeneProduct ;
+    rdfs:label "HSPB4"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:P02489"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/PR_000005908>
+    a ns0:GeneProduct ;
+    rdfs:label "HSPB5"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "PR:000005908"^^xsd:string .
+
+    <http://identifiers.org/umls/C0596235>
+    a ns0:ChemicalEntity ;
+    rdfs:label "calcium ions"^^xsd:string ;
+    ns0:category "biolink:ChemicalEntity"^^xsd:string ;
+    ns0:id "UMLS:C0596235"^^xsd:string .
+
+    <http://identifiers.org/umls/C0917721>
+    a ns0:GeneProduct ;
+    rdfs:label "HIV-1 protease"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UMLS:C0917721"^^xsd:string .
+
+    <http://identifiers.org/uniprot/Q9EPX0>
+    a ns0:GeneProduct ;
+    rdfs:label "HSPB8"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:Q9EPX0"^^xsd:string .
+
+    <http://identifiers.org/uniprot/Q8UUW7>
+    a ns0:GeneProduct ;
+    rdfs:label "Sam68"^^xsd:string ;
+    ns0:category "biolink:GeneProduct"^^xsd:string ;
+    ns0:id "UniProtKB:Q8UUW7"^^xsd:string .
+
+    []
+    a ns0:Association ;
+    rdf:object <http://purl.obolibrary.org/obo/GO_0005622> ;
+    rdf:predicate ns0:located_in ;
+    rdf:subject <http://identifiers.org/uniprot/Q5EBG6> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:UniProtKB:Q5EBG6-biolink:located_in-GO:0005622"^^xsd:string ;
+    ns0:publications <https://dailymed.nhttps://link.springer.com/article/10.1007/s12192-021-01223-3lm.nih.gov/dailymed/drugInfo.cfm?setid=acbce0e8-5098-4785-943b-8bdb5ff17fab> .
+  
+  []
+    a ns0:Association ;
+    rdf:object <http://purl.obolibrary.org/obo/CL_0000000> ;
+    rdf:predicate ns0:located_in ;
+    rdf:subject <http://purl.obolibrary.org/obo/GO_0005622> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:GO:0005622-biolink:located_in-CL:0000000"^^xsd:string ;
+    ns0:publications <https://dailymed.nhttps://link.springer.com/article/10.1007/s12192-021-01223-3lm.nih.gov/dailymed/drugInfo.cfm?setid=acbce0e8-5098-4785-943b-8bdb5ff17fab> .
+  
+  []
+    a ns0:Association ;
+    rdf:object <http://identifiers.org/umls/C1167395> ;
+    rdf:predicate ns0:located_in ;
+    rdf:subject <http://purl.obolibrary.org/obo/CL_0000000> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:CL:0000000-biolink:located_in-UMLS:C1167395"^^xsd:string ;
+    ns0:publications <https://dailymed.nhttps://link.springer.com/article/10.1007/s12192-021-01223-3lm.nih.gov/dailymed/drugInfo.cfm?setid=acbce0e8-5098-4785-943b-8bdb5ff17fab> .
+  
+  []
+    a ns0:Association ;
+    rdf:object <http://purl.obolibrary.org/obo/NCBITaxon_9606> ;
+    rdf:predicate ns0:located_in ;
+    rdf:subject <http://identifiers.org/umls/C1167395> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:UMLS:C1167395-biolink:located_in-NCBITaxon:9606"^^xsd:string ;
+    ns0:publications <https://dailymed.nhttps://link.springer.com/article/10.1007/s12192-021-01223-3lm.nih.gov/dailymed/drugInfo.cfm?setid=acbce0e8-5098-4785-943b-8bdb5ff17fab> .
+  
+  []
+    a ns0:Association ;
+    rdf:object <http://identifiers.org/umls/C1383501> ;
+    rdf:predicate ns0:subcellular_location ;
+    rdf:subject <http://identifiers.org/uniprot/Q5EBG6> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:UniProtKB:Q5EBG6-biolink:subcellular_location-UMLS:C1383501"^^xsd:string ;
+    ns0:publications <https://dailymed.nhttps://link.springer.com/article/10.1007/s12192-021-01223-3lm.nih.gov/dailymed/drugInfo.cfm?setid=acbce0e8-5098-4785-943b-8bdb5ff17fab> .
+    []
+    a ns0:Association ;
+    rdf:object <http://identifiers.org/uniprot/Q38833> ;
+    rdf:predicate ns0:has_name ;
+    rdf:subject <http://purl.obolibrary.org/obo/NCIT_C13725> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:NCIT:C13725-biolink:has_name-UniProtKB:Q38833"^^xsd:string ;
+    ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+  
+  []
+    a ns0:Association ;
+    rdf:object <http://id.nlm.nih.gov/mesh/C105609> ;
+    rdf:predicate ns0:has_name ;
+    rdf:subject <http://identifiers.org/uniprot/Q38833> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:UniProtKB:Q38833-biolink:has_name-MESH:C105609"^^xsd:string ;
+    ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+  
+  []
+    a ns0:Association ;
+    rdf:object <http://id.nlm.nih.gov/mesh/D012045> ;
+    rdf:predicate ns0:is_formed_by ;
+    rdf:subject <http://identifiers.org/uniprot/Q38833> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:UniProtKB:Q38833-biolink:is_formed_by-MESH:D012045"^^xsd:string ;
+    ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+  
+  []
+    a ns0:Association ;
+    rdf:object <http://identifiers.org/pubchem.compound/44135672> ;
+    rdf:predicate ns0:make ;
+    rdf:subject <http://id.nlm.nih.gov/mesh/D012045> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:MESH:D012045-biolink:make-PUBCHEM.COMPOUND:44135672"^^xsd:string ;
+    ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+  
+  []
+    a ns0:Association ;
+    rdf:object <http://identifiers.org/uniprot/P21338> ;
+    rdf:predicate ns0:make ;
+    rdf:subject <http://id.nlm.nih.gov/mesh/D012045> ;
+    ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+    ns0:category "biolink:Association"^^xsd:string ;
+    ns0:id "collaboratory:MESH:D012045-biolink:make-UniProtKB:P21338"^^xsd:string ;
+    ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> . 
+   
+    []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/uniprot/Q38833> ;
+      rdf:predicate ns0:has_name ;
+      rdf:subject <http://purl.obolibrary.org/obo/NCIT_C13725> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:NCIT:C13725-biolink:has_name-UniProtKB:Q38833"^^xsd:string ;
+      ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://id.nlm.nih.gov/mesh/C105609> ;
+      rdf:predicate ns0:has_name ;
+      rdf:subject <http://identifiers.org/uniprot/Q38833> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:UniProtKB:Q38833-biolink:has_name-MESH:C105609"^^xsd:string ;
+      ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://id.nlm.nih.gov/mesh/D012045> ;
+      rdf:predicate ns0:is_formed_by ;
+      rdf:subject <http://identifiers.org/uniprot/Q38833> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:UniProtKB:Q38833-biolink:is_formed_by-MESH:D012045"^^xsd:string ;
+      ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/pubchem.compound/44135672> ;
+      rdf:predicate ns0:make ;
+      rdf:subject <http://id.nlm.nih.gov/mesh/D012045> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:MESH:D012045-biolink:make-PUBCHEM.COMPOUND:44135672"^^xsd:string ;
+      ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/uniprot/P21338> ;
+      rdf:predicate ns0:make ;
+      rdf:subject <http://id.nlm.nih.gov/mesh/D012045> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:MESH:D012045-biolink:make-UniProtKB:P21338"^^xsd:string ;
+      ns0:publications <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4227801/> .
+      []
+      a ns0:Association ;
+      rdf:object <http://purl.obolibrary.org/obo/NCBITaxon_12721> ;
+      rdf:predicate ns0:causes ;
+      rdf:subject <http://purl.obolibrary.org/obo/NCBITaxon_12721> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:NCBITaxon:12721-biolink:causes-NCBITaxon:12721"^^xsd:string .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/umls/C0319157> ;
+      rdf:predicate ns0:is_a ;
+      rdf:subject <http://purl.obolibrary.org/obo/NCBITaxon_12721> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:NCBITaxon:12721-biolink:is_a-UMLS:C0319157"^^xsd:string .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://purl.obolibrary.org/obo/NCBITaxon_12721> ;
+      rdf:predicate ns0:has_name ;
+      rdf:subject <http://purl.obolibrary.org/obo/NCBITaxon_11676> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:NCBITaxon:11676-biolink:has_name-NCBITaxon:12721"^^xsd:string .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/uniprot/P21338> ;
+      rdf:predicate ns0:is ;
+      rdf:subject <http://purl.obolibrary.org/obo/NCBITaxon_12721> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:NCBITaxon:12721-biolink:is-UniProtKB:P21338"^^xsd:string .
+  
+      []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/umls/C0025255> ;
+      rdf:predicate ns0:contains_process ;
+      rdf:subject <http://purl.obolibrary.org/obo/CL_0000000> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:CL:0000000-biolink:contains_process-UMLS:C0025255"^^xsd:string ;
+      ns0:publications <https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://id.nlm.nih.gov/mesh/D002467> ;
+      rdf:predicate ns0:contains_process ;
+      rdf:subject <http://purl.obolibrary.org/obo/CL_0000000> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:CL:0000000-biolink:contains_process-MESH:D002467"^^xsd:string ;
+      ns0:publications <https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://id.nlm.nih.gov/mesh/D003593> ;
+      rdf:predicate ns0:contains_process ;
+      rdf:subject <http://purl.obolibrary.org/obo/CL_0000000> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:CL:0000000-biolink:contains_process-MESH:D003593"^^xsd:string ;
+      ns0:publications <https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://id.nlm.nih.gov/mesh/D002467> ;
+      rdf:predicate ns0:is_located_in ;
+      rdf:subject <http://id.nlm.nih.gov/mesh/D002466> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:MESH:D002466-biolink:is_located_in-MESH:D002467"^^xsd:string ;
+      ns0:publications <https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://id.nlm.nih.gov/mesh/D002466> ;
+      rdf:predicate ns0:contains_process ;
+      rdf:subject <http://purl.obolibrary.org/obo/CL_0000000> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:CL:0000000-biolink:contains_process-MESH:D002466"^^xsd:string ;
+      ns0:publications <https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://id.nlm.nih.gov/mesh/D002466> ;
+      rdf:predicate ns0:located_in ;
+      rdf:subject <http://identifiers.org/pubchem.compound/44135672> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:PUBCHEM.COMPOUND:44135672-biolink:located_in-MESH:D002466"^^xsd:string ;
+      ns0:publications <https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell> .
+    
+    []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/uniprot/P21338> ;
+      rdf:predicate ns0:transcribed_from ;
+      rdf:subject <http://identifiers.org/pubchem.compound/44135672> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:PUBCHEM.COMPOUND:44135672-biolink:transcribed_from-UniProtKB:P21338"^^xsd:string ;
+      ns0:publications <https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cell> .
+  
+      []
+      a ns0:Association ;
+      rdf:object <http://purl.obolibrary.org/obo/PR_000025349> ;
+      rdf:predicate ns0:has ;
+      rdf:subject <http://identifiers.org/uniprot/P02518> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:UniProtKB:P02518-biolink:has-PR:000025349"^^xsd:string ;
+      ns0:publications <https://link.springer.com/article/10.1007/s12192-021-01223-3> .
+      
+      []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/umls/C0002257> ;
+      rdf:predicate ns0:interacts_with ;
+      rdf:subject <http://identifiers.org/umls/C1336952> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:UMLS:C1336952-biolink:interacts_with-UMLS:C0002257"^^xsd:string ;
+      ns0:publications <https://link.springer.com/article/10.1007/s12192-021-01223-3> .
+      
+      []
+      a ns0:Association ;
+      rdf:object <http://purl.obolibrary.org/obo/PR_000025349> ;
+      rdf:predicate ns0:activity_affected_by ;
+      rdf:subject <http://identifiers.org/umls/C0002257> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:UMLS:C0002257-biolink:activity_affected_by-PR:000025349"^^xsd:string ;
+      ns0:publications <https://link.springer.com/article/10.1007/s12192-021-01223-3> .
+      
+      []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/umls/C1167395> ;
+      rdf:predicate ns0:located_in ;
+      rdf:subject <http://identifiers.org/umls/C0524533> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:UMLS:C0524533-biolink:located_in-UMLS:C1167395"^^xsd:string ;
+      ns0:publications <https://link.springer.com/article/10.1007/s12192-021-01223-3> .
+      
+      []
+      a ns0:Association ;
+      rdf:object <http://identifiers.org/umls/C0042736> ;
+      rdf:predicate ns0:directly_interacts_with ;
+      rdf:subject <http://identifiers.org/umls/C0002257> ;
+      ns0:aggregator_knowledge_source <https://w3id.org/biolink/infores/knowledge-collaboratory> ;
+      ns0:category "biolink:Association"^^xsd:string ;
+      ns0:id "collaboratory:UMLS:C0002257-biolink:directly_interacts_with-UMLS:C0042736"^^xsd:string ;
+      ns0:publications <https://link.springer.com/article/10.1007/s12192-021-01223-3> .  
