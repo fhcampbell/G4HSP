@@ -1,0 +1,27 @@
+﻿http://patho.phenomebrowser.net/#/
+http://scottgroup.med.usherbrooke.ca/G4RNA/}{G4RNA}: No longer working/No longer available 
+https://bioinformatics.ramapo.edu/GRSDB2 : No longer working/No longer available
+http://athena.bioc.uvic.ca/genomes/index.html}{Athena Genomes}  :No longer working/No longer available
+https://viralzone.expasy.org/5183 : Incomplete/insufficient/inaccurate
+https://www.genome.jp/virushostdb/note.htm}{VirusHostDB} : Incomplete/insufficient/inaccurate
+https://github.com/AnimaTardeb/G4Hunter/blob/master/Mitochondria_NC_012920_1.fasta}{G4Hunter}: Incomplete/insufficient/inaccurate
+
+
+Specific entities to do with HIV-1 genome and HSP interaction during infection were limited but still useful to the development process.  
+They include the following: https://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&conceptid=http%3A%2F%2F
+purl.bioontology.org%2Fontology%2FSNOMEDCT%2F444356002
+https://www.ncbi.nlm.nih.gov/gds/?term=human+immunodeficiency+virus+2
+https://bioportal.bioontology.org/ontologies
+https://bioportal.bioontology.org/ontologies/PR/?p=classes&conceptid=http%3A%2F%2Fpurl.oboli
+brary.org%2Fobo%2FSO_0000704&jump_to_nav=true
+https://bioportal.bioontology.org/ontologies/SNOMEDCT?p=classes&conceptid=36115006
+https://bioportal.bioontology.org/ontologies/PR/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGO_0016485
+https://bioportal.bioontology.org/ontologies/PR/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_P07900&jump_to_nav=true
+
+
+https://bioportal.bioontology.org/ontologies/PR/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPR_P04792&jump_to_nav=true
+https://bioportal.bioontology.org/ontologies/GO/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGO_0031072&jump_to_nav=true
+https://disease-ontology.org/?id=DOID:526
+http://icd9cm.chrisendres.com/index.php?action=search&srchtext=042-042.99
+A creative attempt to use the xml tree for PathoPhenoDB database was rejected:
+https://www.proteinatlas.org/ENSG00000134057.xml
