@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>G4HSP Interactome</dc:title>
+<dc:creator>Farida Hanna Campbell, Maastricht University</dc:creator>
+<dc:subject>Pathogen Ecology</dc:subject>
+<dc:description>In this project, a knowledge graph of HIV-1 G-quadruplex entities with human cellular heat stress proteins has been created using Biolink in TAO ontology for selected publications.  </dc:description>
+<dc:publisher>Maastricht University</dc:publisher>
+<dc:date>3 April 2023</dc:date>
+<dc:type>Text</dc:type>
+<dc:format>TTL</dc:format>
+<dc:source>Biolink</dc:source>
+<dc:language>English</dc:language>
+<dc:relation>"PMID: 25332402 G-quadruplexes in viruses: function and potential therapeutic applications" "Diversity in heat shock protein families: functional implications in virus infection with a comprehensive insight of their role in the HIV-1 life cycle"</dc:relation>
+<dc:coverage>Pathogen Interactome</dc:coverage>
+<dc:rights>http://G4HSP.bio</dc:rights>
+
+</metadata>
